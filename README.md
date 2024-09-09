@@ -438,3 +438,7 @@ for test_image_path in test_image_paths:
 <p align="center"><img src = "https://github.com/user-attachments/assets/49a1ad63-10f3-4711-8a04-efbc803066a8"></p>
 <p align="center"><img src = "https://github.com/user-attachments/assets/42416c54-6c5a-4a65-8e85-d4490bba687e"></p>
 
+## 마무리
+
+본 연구에서는 제한된 데이터과 한정된 GPU 자원을 사용하여 폐암 예측 모델을 개발하였으며,  향후 검증 데이터에 대해서도 95% 이상의 높은 정확도를 보였으나, 검증 손실은 학습 손실만큼 안정적으로 감소하지 않았습니다. 이는 모델이 검증 데이터에 대해 완벽히 일반화되지 못했음을 알 수 있습니다. 연구에서는 데이터 확장과 자원 확보를 통해 모델 성능을 더욱 향상시킬 수 있을 것입니다.
+
