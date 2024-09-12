@@ -170,7 +170,7 @@ batch_num['train'], batch_num['valid'], batch_num['test'] = len(dataloaders['tra
 print('batch_size : %d,  train-valid-test : %d / %d / %d' % (batch_size, batch_num['train'], batch_num['valid'], batch_num['test']))
 ```
 
-데이터 체크크
+데이터 체크
 
 ```python
 def showdata(inp, title=None):
